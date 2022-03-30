@@ -4,8 +4,8 @@ game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Te
 local PlaceId = game.PlaceId
 
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/joi-droid/MaruHubBF/main/GOHANSSJ3'))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/Blok_frut_connector.lua"))()
+
+ else
   
-  else
-  
-  end
+ end
