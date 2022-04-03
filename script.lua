@@ -9,6 +9,8 @@ elseif PlaceId == 142823291 then
   loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 elseif PlaceId == 2788229376 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+elseif PlaceId == 914010731 then
+  loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
 
  else
   
