@@ -3,7 +3,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Te
 
 local PlaceId = game.PlaceId
 
-	@@ -8,10 +8,14 @@ if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
+if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
 elseif PlaceId == 142823291 then
   loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 elseif PlaceId == 2788229376 then
