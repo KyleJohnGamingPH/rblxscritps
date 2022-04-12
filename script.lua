@@ -23,6 +23,8 @@ elseif PlaceId == 2768379856 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/rblx3008connectors.lua"))()
 elseif PlaceId == 3351674303 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/drvempcnctr.lua"))()
+elseif PlaceId == 8396586868 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
 	
 	else
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Hello Have Fun!!, Enjoy!"})
